@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 style="text-align: center;margin: 15px;text-decoration: underline;color: cadetblue;font-style: oblique;font-size: 40px;">Counter App</h1>
+   <div class="container" style="text-align: center">
+        <h1 style="margin-top: 60px">{{number}}</h1>
+        <a href="/increment/" class="btn btn-primary">Increment</a>
+        <a href="/reset/" class="btn btn-warning">Reset</a>
+        <a href="/decrement/" class="btn btn-success"> Decrement</a>
+    </div>    
+    
+{% endblock %}
